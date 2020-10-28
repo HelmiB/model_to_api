@@ -12,6 +12,7 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
          python3 \
          nginx \
          ca-certificates \
+         python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Here we define all python packages we want to include in our environment.
